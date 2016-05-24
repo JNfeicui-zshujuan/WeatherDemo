@@ -19,12 +19,20 @@
     android:orientation="vertical">
     <TextView
         android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:layout_margin="20dp"/>
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="温度"/>
     <TextView
         android:layout_width="150dp"
-        android:layout_height="40dp"
-        android:layout_marginLeft="20dp"/>
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="最高气温/最低气温"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="空气污染指数"/>
 </LinearLayout>
     <ImageView
         android:id="@+id/im_show"
@@ -39,7 +47,7 @@
         android:layout_alignParentRight="true"
         android:layout_marginRight="20dp"
         android:layout_below="@id/im_show"
-        android:text="hello"/>
+        android:text="日期/星期"/>
     </RelativeLayout>
   <ListView
       android:layout_width="wrap_content"

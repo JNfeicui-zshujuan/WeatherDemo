@@ -5,14 +5,26 @@
     android:layout_height="match_parent"
     android:layout_margin="15dp">
 <TextView
+    android:id="@+id/tv_date_item"
     android:layout_width="wrap_content"
-    android:layout_height="30dp"
+    android:layout_height="50dp"
     android:text="日期"
    />
     <TextView
+        android:id="@+id/tv_weather_item"
         android:layout_width="wrap_content"
-        android:layout_height="30dp"
+        android:layout_height="50dp"
         android:text="天气"
         android:layout_alignParentRight="true"/>
+    <TextView
+        android:id="@+id/tv_temp_item"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="温度"
+        android:layout_marginRight="72dp"
+        android:layout_marginEnd="72dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/tv_weather_item"
+        android:layout_toStartOf="@+id/tv_weather_item" />
 
 </RelativeLayout>
